@@ -1,6 +1,9 @@
 
 # Semantic Book Recommender with LLMs
 
+![](output.png)
+![](output2.png)
+
 ## 📖 Overview
 The Semantic Book Recommender leverages Large Language Models (LLMs) and vector search to provide personalized book recommendations based on user queries. This system processes book descriptions, extracts emotional tones, and categorizes books to enhance discoverability. Using FAISS for vector storage, Google Generative AI for embeddings, and Gradio for a user-friendly interface, this project enables users to find books that match their interests and emotions seamlessly.
 
@@ -62,16 +65,3 @@ The app will be available at: `http://127.0.0.1:7860`
 - `gradio`
 - `GoogleGenerativeAIEmbeddings`
 
-To install all dependencies manually, run:
-```bash
-pip install pandas numpy python-dotenv langchain faiss-cpu gradio
-```
-
-## 📌 License
-This project is open-source and licensed under the MIT License.
-
-## 🤝 Contributing
-We welcome contributions! Feel free to fork the repo, open issues, and submit pull requests.
-
----
-### 🚀 Happy Reading & Coding! 📚
